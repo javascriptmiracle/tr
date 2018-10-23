@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+	.container
+		.card#result
+			input(class="input-element" id="username" type="text" placeholder="Enter the username" autocomplete="off")
+			button#myBtn найти
+	
